@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FROMULARIO SENA V1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>FROMULARIO SENA V1</h1>
+  <h3>GRACIAS POR DEJAR SUS DATOS</h3>
+
+  <div class="form-container">
+    <form>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" placeholder="Por favor ingrese su nombre" required>
+
+      <label for="email">Correo</label>
+      <input type="email" id="email" placeholder="Por favor ingrese su correo" required>
+
+      <label for="age">Edad</label>
+      <input type="number" id="age" placeholder="Por favor ingrese su edad" required>
+
+      <label for="car-question">¿Planeas comprar un auto nuevo en los próximos 5 años?</label>
+        <label><input type="checkbox">Si</label>
+        <label><input type="checkbox">No</label>
+        <label><input type="checkbox">Tal vez</label>
+
+      <label for="brand">Cual es su marca favorita?</label>
+      <select id="brand" required>
+        <option>Seleccione una opcion</option>
+        <option>Tesla</option>
+        <option>Ferrari</option>
+        <option>Bugatti</option>
+        <option>BMW</option>
+      </select>
+
+      <label for="transport">Que tipo de medio de transporte posee</label>
+        <label><input type="checkbox">Carro</label>
+        <label><input type="checkbox">Bote</label>
+        <label><input type="checkbox">Bicicleta</label>
+        <label><input type="checkbox">Moto</label>
+        <label><input type="checkbox">Ninguna</label>
+      </select>
+
+      <label for="comments">Tiene alguna pregunta o comentario?</label>
+      <textarea id="comments" placeholder="Por favor ingreselos"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
+
