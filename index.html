@@ -10,7 +10,7 @@
   <h3>GRACIAS POR DEJAR SUS DATOS</h3>
 
   <div class="form-container">
-    <form>
+    <form id="survey-form">
       <label for="name">Nombre</label>
       <input type="text" id="name" placeholder="Por favor ingrese su nombre" required>
 
@@ -48,6 +48,14 @@
       <button type="submit">Enviar</button>
     </form>
   </div>
+
+  <div id="modal-success" class="modal hidden">
+    <div class="modal-content">
+      <h2>YA SE ENVIARON</h2>
+      <button id="close-modal">CERRAR</button>
+    </div>
+  </div>
 </body>
+<script type="module" src="main.js"></script>
 </html>
 
