@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: rgb(130, 194, 255);
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h3 {
   width: 350px;
   margin: 0 auto;
   border-radius: 7px;
-  color: #ffffff;
+  color: #fff;
 }
 
 form {
